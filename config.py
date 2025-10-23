@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database --⚠️ REQUIRED--
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority&appName=AkaneSakuramoriFileBot")
-DB_NAME = os.environ.get("DATABASE_NAME", "Akane_Sakuramori_File_Bot")
+DB_NAME = os.environ.get("DATABASE_NAME", "AkaneSakuramoriFileBot")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
